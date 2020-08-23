@@ -1,4 +1,8 @@
-var slideIndex = 0;
+
+
+// Carousel
+
+{var slideIndex = 0;
 showSlides();
 
 
@@ -18,4 +22,20 @@ function showSlides() {
   slides[slideIndex].style.display = "block";  
   dots[slideIndex].className += " active";
   setTimeout(showSlides, 1000); // Change image every 2 seconds
+}};
+
+//  Caleder 
+{
+
+  $(document).ready(function(){
+
+    $("#date").datapicker({dateFormat:"dd/mm/yy"});
+    $
+  
+  )};
+  
+
+
+
 }
+
