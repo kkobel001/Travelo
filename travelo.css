@@ -16,6 +16,7 @@ body{
  
 }
 
+
 .wrapper-header{
     display: grid;
 
@@ -145,3 +146,29 @@ body{
     
 
 } 
+
+/* Popular destination */
+
+
+
+.popular-destination{
+
+    margin-top:170px;
+    margin-bottom:130px;
+}
+
+.thumb
+{
+    
+  border-radius: 5px;
+  padding:15px;
+  transition: transform 1s ease-in-out;
+}
+
+.thumb:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+
+}
+
+ 
