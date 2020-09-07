@@ -162,11 +162,11 @@ body{
     width:100%;
     max-width: 400px; 
     overflow: hidden;
+    text-decoration: none;
 
 
 }  
  .thumb img{
-    width: 100%;
     height: auto;
     filter: brightness(0.6)
 
@@ -226,14 +226,7 @@ body{
 
 
 
-@media (min-width: 992px){
-    .container {
-        max-width: 960px;
-    }
 
-
-
-}
 
 .row{
 
@@ -269,3 +262,43 @@ body{
     height: 100%;
     z-index: -1;
  }
+
+  /* Popular places */
+
+
+
+
+.price{
+    position: absolute;
+    background: #1EC6B6;
+    padding: 7px 18px 4px 18px;
+    display: inline-block;
+    top: 20px;
+    left: 20px;
+    border-radius: 10pt;
+    font-size:14px;
+    text-decoration:none;
+    
+}
+
+
+
+    
+.single-places {
+    overflow: hidden;
+    color:white;
+    font-size: 17px;
+    margin-bottom:25px;
+    text-align: center;
+   
+    
+    
+}
+.single-places:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration:none;
+    
+
+}
+ 
+
