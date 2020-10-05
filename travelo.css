@@ -471,7 +471,7 @@ body{
 
 .footer{
     background-color: #040E27;
-    color: rgb(243, 219, 219);
+    color: #AAB1B7;
     margin-top:150px;
     font-size: 15px;;
 }
@@ -479,10 +479,87 @@ body{
      padding-top:60px;    
 }
 .footer  h3{
-    font-size:17px;
-    margin-bottom:15px;
+    font-size:20px;
+    margin-bottom:45px;
+    color:white;
 
 }
 .footer-widget{
     margin-top:45px;
+  
+    
+}
+
+.email{
+   
+    color:#AAB1B7;
+}
+.email:hover{
+    color:#dc3545;
+    text-decoration:none;
+}
+.social-links li{
+    list-style-type: none;
+    float:left;
+    padding:15px;
+}
+.social-links li:first-child{
+
+    padding-left:0px;
+}
+
+.social-links> ul> li> a{
+    color:#AAB1B7;
+    font-size: 21px;
+}
+
+.social-links> ul> li> a:hover{
+  color :#dc3545;
+}
+   
+.links{
+    list-style-type:none;
+}
+.links li{
+
+    padding:10px;
+}
+
+.links>li > a{
+    color:#AAB1B7;
+}
+.links>li > a:hover{
+  color:  #dc3545;
+  text-decoration: none;
+}
+   
+.double-links{
+    list-style-type:none;
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2
+}
+.double-links li{
+
+    padding:10px;
+    float:left;
+}
+
+.double-links>li > a{
+    color:#AAB1B7;
+}
+.double-links>li > a:hover{
+  color:  #dc3545;
+  text-decoration: none;
+}
+
+.single-instagram{
+    float:left;
+    padding:5px;
+    border-radius: 15px;
+}
+
+.footer-bottom{
+
+    margin-top:100px
 }
