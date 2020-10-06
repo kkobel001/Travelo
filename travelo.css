@@ -21,10 +21,12 @@ body{
     display: grid;
 
 }
-.nav-link{
 
-    color:yellow;
+.active{
+    
+    color:#dc3545;
 }
+
 .nav-link{  
 
     text-transform: uppercase;
