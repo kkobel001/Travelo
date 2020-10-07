@@ -11,31 +11,24 @@ body{
    
     font-family: 'Montserrat', sans-serif; 
     color: black;
-
- 
- 
 }
-
-
 .wrapper-header{
     display: grid;
 
 }
 
-.active{
-    
-    color:#dc3545;
-}
 
 .nav-link{  
 
     text-transform: uppercase;
 }
 .nav-link:hover{
-    text-decoration: none;
-    font-size: 18px;
-    text-shadow: 1px 1px #000000;
+    text-decoration: none;  
+    color:#dc3545!important;
+}
 
+#collapsibleNavbar{
+    margin-left:auto;
 }
 
   /* Carousel  */
@@ -73,12 +66,7 @@ body{
 .carousel-button:hover{
 
     background-color: palevioletred;
-    box-shadow: 2px  rgb(114, 185, 230);
-
 }
-
-
-
 .carousel-item {
 
         -webkit-animation-name: carousel-item ;
@@ -117,6 +105,9 @@ body{
     margin-top:auto;
     margin-bottom: auto;
 }
+.search-heder h3{
+    font-size:19px;
+}
 .search-button
 {
   
@@ -154,11 +145,63 @@ body{
 
 .popular-destination{
 
-    margin-top:170px;
-    margin-bottom:130px;
+     padding-top:140px;
+    padding-bottom:120px;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+   
+
 }
 
-.thumb
+.popular-destination .single-destination
+{
+    position:relative;
+    margin-bottom:25px;
+    padding:left
+    color:white; 
+    box-shadow: 0 5px 20px rgb(0,0,0,0.5);
+    transition:0.3s ease-in;
+    color:white;
+
+}
+.popular-destination .single-destination:hover{
+ 
+}
+.popular-destination .single-destination .thumb
+{
+    position:relative;
+    width:100%;
+    text-decoration: none;
+    
+}
+
+.popular-destination .single-destination .thumb img 
+{
+   
+    filter: brightness(0.6) ;
+    height:auto;
+    overflow: hidden;
+    border-radius:5px;
+}
+.popular-destination .single-destination .content
+{
+    position:absolute;
+    z-index:7;
+    bottom: 30px;
+    padding-left:10px;
+    opacity: 0;
+    transition: 0.3s ease-in
+}
+.popular-destination .single-destination:hover .content 
+{
+    visibility: visible;
+    opacity:1;
+   
+}
+
+
+/* .thumb
 {
     position:relative;
     width:100%;
@@ -169,35 +212,28 @@ body{
 
 }  
  .thumb img{
-    height: auto;
-    filter: brightness(0.6)
+     height: auto;
+    filter: brightness(0.6) ;
 
  }
-  
+   */
 
 
-    
-.single-destination  {
+/*     
+.single-destination {
     overflow: hidden;
     color:white;
     font-size: 22px;
     margin-bottom:25px;
     
+    
 }
-.single-destination:hover {
+.single-destination:hover{
  color:#dc3545;
- justify-items: center;
- 
 
 }
 
 
-
-.content{
-
-    z-index: 7;
-
-}
 .content p {
 
     position: absolute;
@@ -224,16 +260,16 @@ body{
 .content a:hover{
 
     background-color: #dc3545;
+
 }
-
-
+ */
 
 
 
 .row{
 
-    margin-left:50px;
-    margin-right:50px;
+    margin-left:-15px;
+    margin-right:-15px;
     display: flex;
 }
 .newsletter{
